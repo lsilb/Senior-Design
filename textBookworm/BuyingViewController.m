@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *edition;
 @property (weak, nonatomic) IBOutlet UITextField *maxPrice;
 @property (strong, nonatomic) FIRDatabaseReference *ref;
+@property (weak, nonatomic) IBOutlet UILabel *missingFields;
 
 @end
 
@@ -24,6 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.missingFields.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,22 +33,29 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)addToDBbooks:(NSString *)bookTitle
-             Authors:(NSString *)authors
-             Edition:(NSString *)edition
-            MaxPrice:(NSString *)maxPrice {
-    FIRDatabaseReference *ref = [[FIRDatabase database] reference];
-    [[[[ref child:@"books"] child:bookTitle] child:@"authors"] setValue:authors];
-    [[[[ref child:@"books"] child:bookTitle] child:@"edition"] setValue:edition];
-    // Check if buyingPrices is null; if it is, create an array with the maxPrice,
-    // if it isn't, add maxPrice to the existing array
-    [[[[ref child:@"books"] child:bookTitle] child:@"buyingPrices"] setValue:maxPrice];
+
+- (void)addToDBBuying:(NSString *)bookTitle
+             MaxPrice:(NSString *)maxPrice {
+    if (_bookTitle.text.length && _authors.text.length && _edition.text.length && _maxPrice.text.length) {
+        FIRDatabaseReference *ref = [[FIRDatabase database] reference];
+        [[[[ref child:@"buying"] child:bookTitle] child:@"pennKey"] setValue:maxPrice];
+    } else {
+        self.missingFields.hidden = NO;
+    }
 }
 
 - (IBAction)findMyBookPressed:(id)sender {
     NSLog(@"Here");
-    [self performSegueWithIdentifier:@"findmwmybook" sender:self];
+    if (_bookTitle.text.length && _authors.text.length && _edition.text.length && _maxPrice.text.length) {
+        [self addToDBBuying:_bookTitle.text MaxPrice:_maxPrice.text];
+        [self performSegueWithIdentifier:@"findmemybook" sender:nil];
+    } else {
+        self.missingFields.hidden = NO;
+    }
+    
+    
 }
+
 
 /*
 #pragma mark - Navigation

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1244B03FABB97B9DABBF5564 /* libPods-textBookworm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 153487CBF1868622BA805AE6 /* libPods-textBookworm.a */; };
-		857AAEDC8AA0221BA105CD68 /* libPods-textBookwormTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B5A9FB84686A5B1553A992 /* libPods-textBookwormTests.a */; };
+		28487457EEE119DFD7E8B361 /* libPods-textBookworm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A89487E841AA8125039C0D /* libPods-textBookworm.a */; };
+		55154478CD50F4142C17C904 /* libPods-textBookwormTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B69DEACFDBA7E8A00F15B94 /* libPods-textBookwormTests.a */; };
+		8902F08E1DF740FA00A6C688 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8902F08D1DF740FA00A6C688 /* AdSupport.framework */; };
 		894DBAF91DEFB44000989F63 /* ScannedSellingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894DBAF81DEFB44000989F63 /* ScannedSellingViewController.m */; };
 		894DBAFC1DEFB47000989F63 /* ManualSellingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894DBAFB1DEFB47000989F63 /* ManualSellingViewController.m */; };
 		894DBAFE1DEFC33B00989F63 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 894DBAFD1DEFC33B00989F63 /* images.png */; };
 		894DBB011DEFC4BB00989F63 /* PendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894DBB001DEFC4BB00989F63 /* PendingViewController.m */; };
 		897A997A1DEF47F5003AB9C9 /* ScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897A99791DEF47F5003AB9C9 /* ScannerViewController.m */; };
-		897A997D1DEF48A5003AB9C9 /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 897A997B1DEF48A5003AB9C9 /* MTBBarcodeScanner.m */; };
 		897A99801DEF4A40003AB9C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897A997E1DEF4A40003AB9C9 /* AVFoundation.framework */; };
 		897A99811DEF4A40003AB9C9 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897A997F1DEF4A40003AB9C9 /* AVKit.framework */; };
 		899403021DECE0CD00740253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 899403011DECE0CD00740253 /* main.m */; };
@@ -30,6 +30,8 @@
 		899403331DECEAAF00740253 /* BuyingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899403321DECEAAF00740253 /* BuyingViewController.m */; };
 		89A292981DEF61F2004961D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89A292971DEF61F2004961D4 /* GoogleService-Info.plist */; };
 		89A6AA661DED1FBE005B4DD4 /* Screenshot 2016-11-28 21.29.29.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A6AA651DED1FBE005B4DD4 /* Screenshot 2016-11-28 21.29.29.png */; };
+		89AB08011DF52F0D008D6115 /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AB08001DF52F0D008D6115 /* UploadViewController.m */; };
+		89BBC3AD1DF49F8D00ED4699 /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BBC3AC1DF49F8D00ED4699 /* MTBBarcodeScanner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,21 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D1438B3813E561AD46490F2 /* Pods-textBookworm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textBookworm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-textBookworm/Pods-textBookworm.debug.xcconfig"; sourceTree = "<group>"; };
-		153487CBF1868622BA805AE6 /* libPods-textBookworm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-textBookworm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43B5A9FB84686A5B1553A992 /* libPods-textBookwormTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-textBookwormTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		710E01237766E2157DCA41DD /* Pods-textBookwormTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textBookwormTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-textBookwormTests/Pods-textBookwormTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28094AC3AC03A8F860BE1BCB /* Pods-textBookwormTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textBookwormTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-textBookwormTests/Pods-textBookwormTests.release.xcconfig"; sourceTree = "<group>"; };
+		36418C5469CFE1B1205D0677 /* Pods-textBookwormTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textBookwormTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-textBookwormTests/Pods-textBookwormTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B69DEACFDBA7E8A00F15B94 /* libPods-textBookwormTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-textBookwormTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8902F08D1DF740FA00A6C688 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		894DBAF71DEFB44000989F63 /* ScannedSellingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannedSellingViewController.h; sourceTree = "<group>"; };
 		894DBAF81DEFB44000989F63 /* ScannedSellingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannedSellingViewController.m; sourceTree = "<group>"; };
 		894DBAFA1DEFB47000989F63 /* ManualSellingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualSellingViewController.h; sourceTree = "<group>"; };
 		894DBAFB1DEFB47000989F63 /* ManualSellingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualSellingViewController.m; sourceTree = "<group>"; };
-		894DBAFD1DEFC33B00989F63 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = ../../../Desktop/images.png; sourceTree = "<group>"; };
+		894DBAFD1DEFC33B00989F63 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 		894DBAFF1DEFC4BB00989F63 /* PendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PendingViewController.h; sourceTree = "<group>"; };
 		894DBB001DEFC4BB00989F63 /* PendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PendingViewController.m; sourceTree = "<group>"; };
 		897A99781DEF47F5003AB9C9 /* ScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerViewController.h; sourceTree = "<group>"; };
 		897A99791DEF47F5003AB9C9 /* ScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerViewController.m; sourceTree = "<group>"; };
-		897A997B1DEF48A5003AB9C9 /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTBBarcodeScanner.m; path = ../../../Desktop/MTBBarcodeScanner.m; sourceTree = "<group>"; };
-		897A997C1DEF48A5003AB9C9 /* MTBBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTBBarcodeScanner.h; path = ../../../Desktop/MTBBarcodeScanner.h; sourceTree = "<group>"; };
 		897A997E1DEF4A40003AB9C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		897A997F1DEF4A40003AB9C9 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		899402FD1DECE0CD00740253 /* textBookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textBookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,8 +83,13 @@
 		899403321DECEAAF00740253 /* BuyingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyingViewController.m; sourceTree = "<group>"; };
 		89A292971DEF61F2004961D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89A6AA651DED1FBE005B4DD4 /* Screenshot 2016-11-28 21.29.29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2016-11-28 21.29.29.png"; path = "../../../Desktop/Screenshot 2016-11-28 21.29.29.png"; sourceTree = "<group>"; };
-		B2DE1CA0041523FDF0D053DC /* Pods-textBookworm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textBookworm.release.xcconfig"; path = "Pods/Target Support Files/Pods-textBookworm/Pods-textBookworm.release.xcconfig"; sourceTree = "<group>"; };
-		FE0CAD860648635746708B8C /* Pods-textBookwormTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textBookwormTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-textBookwormTests/Pods-textBookwormTests.release.xcconfig"; sourceTree = "<group>"; };
+		89A89487E841AA8125039C0D /* libPods-textBookworm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-textBookworm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AB07FF1DF52F0D008D6115 /* UploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
+		89AB08001DF52F0D008D6115 /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
+		89BBC3AB1DF49F8D00ED4699 /* MTBBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBBarcodeScanner.h; sourceTree = "<group>"; };
+		89BBC3AC1DF49F8D00ED4699 /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBBarcodeScanner.m; sourceTree = "<group>"; };
+		C3AEE53EF3F7FBC98856F4E3 /* Pods-textBookworm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textBookworm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-textBookworm/Pods-textBookworm.debug.xcconfig"; sourceTree = "<group>"; };
+		FA89851FF2B5BADE645300AC /* Pods-textBookworm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textBookworm.release.xcconfig"; path = "Pods/Target Support Files/Pods-textBookworm/Pods-textBookworm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +97,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8902F08E1DF740FA00A6C688 /* AdSupport.framework in Frameworks */,
 				897A99801DEF4A40003AB9C9 /* AVFoundation.framework in Frameworks */,
 				897A99811DEF4A40003AB9C9 /* AVKit.framework in Frameworks */,
-				1244B03FABB97B9DABBF5564 /* libPods-textBookworm.a in Frameworks */,
+				28487457EEE119DFD7E8B361 /* libPods-textBookworm.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				857AAEDC8AA0221BA105CD68 /* libPods-textBookwormTests.a in Frameworks */,
+				55154478CD50F4142C17C904 /* libPods-textBookwormTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,21 +118,22 @@
 		22EA3152C190FD281A2513AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8902F08D1DF740FA00A6C688 /* AdSupport.framework */,
 				897A997E1DEF4A40003AB9C9 /* AVFoundation.framework */,
 				897A997F1DEF4A40003AB9C9 /* AVKit.framework */,
-				153487CBF1868622BA805AE6 /* libPods-textBookworm.a */,
-				43B5A9FB84686A5B1553A992 /* libPods-textBookwormTests.a */,
+				89A89487E841AA8125039C0D /* libPods-textBookworm.a */,
+				4B69DEACFDBA7E8A00F15B94 /* libPods-textBookwormTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6FB9E1199401A549064E07FC /* Pods */ = {
+		436465E68ACB55866139A1D1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0D1438B3813E561AD46490F2 /* Pods-textBookworm.debug.xcconfig */,
-				B2DE1CA0041523FDF0D053DC /* Pods-textBookworm.release.xcconfig */,
-				710E01237766E2157DCA41DD /* Pods-textBookwormTests.debug.xcconfig */,
-				FE0CAD860648635746708B8C /* Pods-textBookwormTests.release.xcconfig */,
+				C3AEE53EF3F7FBC98856F4E3 /* Pods-textBookworm.debug.xcconfig */,
+				FA89851FF2B5BADE645300AC /* Pods-textBookworm.release.xcconfig */,
+				36418C5469CFE1B1205D0677 /* Pods-textBookwormTests.debug.xcconfig */,
+				28094AC3AC03A8F860BE1BCB /* Pods-textBookwormTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -138,7 +145,7 @@
 				899403191DECE0CD00740253 /* textBookwormTests */,
 				899402FE1DECE0CD00740253 /* Products */,
 				22EA3152C190FD281A2513AB /* Frameworks */,
-				6FB9E1199401A549064E07FC /* Pods */,
+				436465E68ACB55866139A1D1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,8 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				894DBAFD1DEFC33B00989F63 /* images.png */,
-				897A997B1DEF48A5003AB9C9 /* MTBBarcodeScanner.m */,
-				897A997C1DEF48A5003AB9C9 /* MTBBarcodeScanner.h */,
+				89BBC3AB1DF49F8D00ED4699 /* MTBBarcodeScanner.h */,
+				89BBC3AC1DF49F8D00ED4699 /* MTBBarcodeScanner.m */,
 				899403031DECE0CD00740253 /* AppDelegate.h */,
 				899403041DECE0CD00740253 /* AppDelegate.m */,
 				899403061DECE0CD00740253 /* ViewController.h */,
@@ -177,6 +184,8 @@
 				8994032F1DECEA0E00740253 /* SellingViewController.m */,
 				899403311DECEAAF00740253 /* BuyingViewController.h */,
 				899403321DECEAAF00740253 /* BuyingViewController.m */,
+				89AB07FF1DF52F0D008D6115 /* UploadViewController.h */,
+				89AB08001DF52F0D008D6115 /* UploadViewController.m */,
 				89A292971DEF61F2004961D4 /* GoogleService-Info.plist */,
 				894DBAF71DEFB44000989F63 /* ScannedSellingViewController.h */,
 				894DBAF81DEFB44000989F63 /* ScannedSellingViewController.m */,
@@ -204,12 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8994031F1DECE0CD00740253 /* Build configuration list for PBXNativeTarget "textBookworm" */;
 			buildPhases = (
-				D6596A1725BD6C37A9D73004 /* [CP] Check Pods Manifest.lock */,
+				C713BD030CA15D6326974098 /* [CP] Check Pods Manifest.lock */,
 				899402F91DECE0CD00740253 /* Sources */,
 				899402FA1DECE0CD00740253 /* Frameworks */,
 				899402FB1DECE0CD00740253 /* Resources */,
-				BD7D4FFE9FB1469481F54D51 /* [CP] Embed Pods Frameworks */,
-				4D7E731EFA48459AFEF2A640 /* [CP] Copy Pods Resources */,
+				A5D32D3FFCBB0A943EE46AEF /* [CP] Embed Pods Frameworks */,
+				622D950E5ABC1FB08A9192AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,12 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 899403221DECE0CD00740253 /* Build configuration list for PBXNativeTarget "textBookwormTests" */;
 			buildPhases = (
-				CEF1BEE6CDC48A3778FFF5C5 /* [CP] Check Pods Manifest.lock */,
+				AE535F49B0A26A22CD25D8AF /* [CP] Check Pods Manifest.lock */,
 				899403121DECE0CD00740253 /* Sources */,
 				899403131DECE0CD00740253 /* Frameworks */,
 				899403141DECE0CD00740253 /* Resources */,
-				EC3DE1A36EE7361E0081A7B0 /* [CP] Embed Pods Frameworks */,
-				219B4145CBDBF12D7E1A0190 /* [CP] Copy Pods Resources */,
+				1892CC65A53CBECDC8DB8F9F /* [CP] Embed Pods Frameworks */,
+				4D70646650663D38E85F6819 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -309,82 +318,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		219B4145CBDBF12D7E1A0190 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textBookwormTests/Pods-textBookwormTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D7E731EFA48459AFEF2A640 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textBookworm/Pods-textBookworm-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BD7D4FFE9FB1469481F54D51 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textBookworm/Pods-textBookworm-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CEF1BEE6CDC48A3778FFF5C5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D6596A1725BD6C37A9D73004 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EC3DE1A36EE7361E0081A7B0 /* [CP] Embed Pods Frameworks */ = {
+		1892CC65A53CBECDC8DB8F9F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,6 +333,81 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textBookwormTests/Pods-textBookwormTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4D70646650663D38E85F6819 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textBookwormTests/Pods-textBookwormTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		622D950E5ABC1FB08A9192AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textBookworm/Pods-textBookworm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D32D3FFCBB0A943EE46AEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textBookworm/Pods-textBookworm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE535F49B0A26A22CD25D8AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C713BD030CA15D6326974098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -406,10 +415,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AB08011DF52F0D008D6115 /* UploadViewController.m in Sources */,
 				894DBAFC1DEFB47000989F63 /* ManualSellingViewController.m in Sources */,
 				8994032D1DECE61C00740253 /* SignUpViewController.m in Sources */,
 				894DBB011DEFC4BB00989F63 /* PendingViewController.m in Sources */,
-				897A997D1DEF48A5003AB9C9 /* MTBBarcodeScanner.m in Sources */,
+				89BBC3AD1DF49F8D00ED4699 /* MTBBarcodeScanner.m in Sources */,
 				894DBAF91DEFB44000989F63 /* ScannedSellingViewController.m in Sources */,
 				899403301DECEA0E00740253 /* SellingViewController.m in Sources */,
 				8994032A1DECE49100740253 /* LoginViewController.m in Sources */,
@@ -549,13 +559,51 @@
 		};
 		899403201DECE0CD00740253 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D1438B3813E561AD46490F2 /* Pods-textBookworm.debug.xcconfig */;
+			baseConfigurationReference = C3AEE53EF3F7FBC98856F4E3 /* Pods-textBookworm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43Z4B23SUU;
 				INFOPLIST_FILE = textBookworm/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"IQKeyboardManager\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleInterchangeUtilities\"",
+					"-framework",
+					"\"GoogleSymbolUtilities\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.BookwormSilb.Bookworm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -563,13 +611,51 @@
 		};
 		899403211DECE0CD00740253 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2DE1CA0041523FDF0D053DC /* Pods-textBookworm.release.xcconfig */;
+			baseConfigurationReference = FA89851FF2B5BADE645300AC /* Pods-textBookworm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43Z4B23SUU;
 				INFOPLIST_FILE = textBookworm/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"IQKeyboardManager\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleInterchangeUtilities\"",
+					"-framework",
+					"\"GoogleSymbolUtilities\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.BookwormSilb.Bookworm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -577,7 +663,7 @@
 		};
 		899403231DECE0CD00740253 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 710E01237766E2157DCA41DD /* Pods-textBookwormTests.debug.xcconfig */;
+			baseConfigurationReference = 36418C5469CFE1B1205D0677 /* Pods-textBookwormTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 43Z4B23SUU;
@@ -591,7 +677,7 @@
 		};
 		899403241DECE0CD00740253 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE0CAD860648635746708B8C /* Pods-textBookwormTests.release.xcconfig */;
+			baseConfigurationReference = 28094AC3AC03A8F860BE1BCB /* Pods-textBookwormTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 43Z4B23SUU;
